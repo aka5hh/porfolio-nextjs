@@ -21,7 +21,7 @@ export default function Home() {
             Abu Bakar Siddique
           </h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
-            Hey my name is Abu Bakar , I'm a Website Developer/Software Engineer.
+            Hey my name is Abu Bakar , I am a Website Developer/Software Engineer.
           </p>
 
           <div className="flex space-x-5 pt-6">
@@ -81,21 +81,21 @@ export default function Home() {
                   <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
                 </svg>
               </a>
-            </li> */}
+            </li>  */}
 
             <a href="https://github.com/aka5hh" target="_blank">
-              <svg 
-              fill="none" 
-              viewBox="0 0 15 15" 
-              className="w-8 h-8 text-teal-500 hover:text-teal-600"             
+              <svg
+                fill="none"
+                viewBox="0 0 15 15"
+                className="w-8 h-8 text-teal-500 hover:text-teal-600"
               >
                 <path
                   fill="currentColor"
                   d="M9.358 2.145a8.209 8.209 0 00-3.716 0c-.706-.433-1.245-.632-1.637-.716a2.17 2.17 0 00-.51-.053 1.258 1.258 0 00-.232.028l-.01.002-.004.002h-.003l.137.481-.137-.48a.5.5 0 00-.32.276 3.12 3.12 0 00-.159 2.101A3.354 3.354 0 002 5.93c0 1.553.458 2.597 1.239 3.268.547.47 1.211.72 1.877.863-.11.305-.138.628-.116.958v.598c-.407.085-.689.058-.89-.008-.251-.083-.444-.25-.629-.49a4.798 4.798 0 01-.27-.402l-.057-.093a9.216 9.216 0 00-.224-.354c-.19-.281-.472-.633-.928-.753l-.484-.127-.254.968.484.127c.08.02.184.095.355.346.063.093.122.19.19.302l.068.11c.094.152.202.32.327.484.253.33.598.663 1.11.832.35.116.748.144 1.202.074V14.5a.5.5 0 00.5.5h4a.5.5 0 00.5-.5v-3.563c0-.315-.014-.604-.103-.873.663-.14 1.322-.39 1.866-.86.78-.676 1.237-1.73 1.237-3.292v-.001a3.354 3.354 0 00-.768-2.125 3.12 3.12 0 00-.159-2.1.5.5 0 00-.319-.277l-.137.48c.137-.48.136-.48.135-.48l-.002-.001-.004-.002-.009-.002a.671.671 0 00-.075-.015 1.261 1.261 0 00-.158-.013 2.172 2.172 0 00-.51.053c-.391.084-.93.283-1.636.716z"
                 />
               </svg>
-            </a> 
-            
+            </a>
+
             <a href="https://www.linkedin.com/in/abubakarsiddiquee/" target="_blank">
               <svg
                 viewBox="0 0 900 1000"
@@ -104,8 +104,8 @@ export default function Home() {
               >
                 <path d="M204 152c0 26.667-9.667 49.333-29 68s-44.333 28-75 28c-29.333 0-53.333-9.333-72-28S0 178.667 0 152c0-28 9.333-51 28-69s43.333-27 74-27 55 9 73 27 27.667 41 29 69M6 942V324h192v618H6m306-420c0-57.333-1.333-123.333-4-198h166l10 86h4c40-66.667 103.333-100 190-100 66.667 0 120.333 22.333 161 67s61 111 61 199v366H708V600c0-89.333-32.667-134-98-134-46.667 0-79.333 24-98 72-4 8-6 24-6 48v356H312V522" />
               </svg>
-            </a> 
-            
+            </a>
+
             <a href="mailto:mohammad.akash31@gmail.com" target="_blank">
               <svg
                 viewBox="0 0 24 24"
@@ -126,11 +126,30 @@ export default function Home() {
               </svg>
             </a>
 
-
-
           </div>
-
         </div>
+
+        <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
+          <p>
+            Hey everyone my name is Akash, I am 26 years old and I am a Wedsite Developer / Sofwate engineer based in Dhaka/Bangladesh.
+
+          </p>
+          <p>
+            I love building Full Stack applications with React and to share them
+            on YouTube. When I discovered React, I was blown away by its
+            interactivity and speed. Its virtual DOM and efficient rendering
+            mechanisms allowed me to create dynamic user interfaces that
+            responded to user actions in real-time.
+          </p>
+          <p>
+            Building applications with Reactand sharing them on YouTube is my
+            ultimate combination of creative expression, technical expertise,
+            and community engagement. I am thrilled to continue this journey,
+            honing my skills, and inspiring others in the process.
+          </p>
+        </div>
+
+
       </div>
     </div>
 
