@@ -1,32 +1,32 @@
-// import Image from "next/image";
-// import { client } from "../lib/sanity";
+import Image from "next/image";
+import { client } from "../lib/sanity";
 
-// interface Data {
-//     title: string;
-//     overview: string;
-//     link: string;
-//     _id: string;
-//     imageUrl: string;
-// }
+interface Data {
+    title: string;
+    overview: string;
+    link: string;
+    _id: string;
+    imageUrl: string;
+}
 
-// async function getProjects() {
-//     const query = `*[_type == "project"] {
-//     title,
-//       overview,
-//       link,
-//       _id,
-//       "imageUrl": image.asset->url
-//   }`;
+async function getProjects() {
+    const query = `*[_type == "project"] {
+        title,
+          overview,
+          link,
+          _id,
+          "imageUrl": image.asset->url
+      }`;
 
-//     const data = await client.fetch(query);
+    const data = await client.fetch(query);
 
-//     return data;
-// }
+    return data;
+}
 
-// export const revalidate = 60;
+export const revalidate = 60;
 
 export default async function Projects() {
-    // const data: Data[] = await getProjects();
+    const data: Data[] = await getProjects();
 
     return (
         <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -36,7 +36,7 @@ export default async function Projects() {
                 </h1>
             </div>
 
-            {/* <div className="grid gap-y-8 sm:gap-6  sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
+            <div className="grid gap-y-8 sm:gap-6  sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
                 {data.map((project) => (
                     <article
                         key={project._id}
@@ -75,7 +75,7 @@ export default async function Projects() {
                         </div>
                     </article>
                 ))}
-            </div> */}
+            </div>
         </div>
     );
 }
